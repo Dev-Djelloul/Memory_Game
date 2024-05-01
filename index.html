@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Petit jeu de mémoire</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Un petit jeu de mémoire</h1>
+    <p>Temps écoulé de la partie : <span id="timer">0</span> secondes</p>
+    <!-- Section pour afficher les scores -->
+    <h2>Ton score</h2>
+    <ul id="score-list">
+      <!-- Les scores seront ajoutés dynamiquement ici -->
+    </ul>
+    <!-- Section pour afficher les statistiques des scores -->
+    <h2>Tes statistiques</h2>
+    <ul id="stats-list">
+      <!-- Les statistiques seront ajoutées dynamiquement ici -->
+    </ul>
+
+    <div id="game-board"></div>
+    <button class="button" id="restart-button">Nouvelle Partie !</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
