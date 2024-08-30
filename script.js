@@ -9,6 +9,7 @@ const cards = [
     "https://picsum.photos/id/244/100/100",
   ];
   
+
   const gameBoard = document.getElementById("game-board");
   let selectedCards = [];
   let startTime;
@@ -43,14 +44,14 @@ const cards = [
       totalScore += score.time;
       bestScore = Math.min(bestScore, score.time); // Mettre à jour le meilleur score si nécessaire
       const listItem = document.createElement('li');
-      listItem.textContent = `Partie ${index + 1}: ${score.time} secondes`;
+      listItem.textContent = `Partie ${index + 1}: ${score.time} seconde`;
       scoreList.appendChild(listItem);
     });
     const averageScore = scores.length > 0 ? totalScore / scores.length : 0;
     const statsList = document.getElementById('stats-list');
     statsList.innerHTML = `
-      <li>Meilleur score: ${bestScore === Infinity ? 'Aucune' : bestScore} secondes</li>
-      <li>Moyenne des scores: ${averageScore.toFixed(2)} secondes</li>
+      <li>Meilleur score : ${bestScore === Infinity ? '0' : bestScore} seconde</li>
+      <li>Moyenne des scores : ${averageScore.toFixed(2)} seconde</li>
     `;
   }
   
