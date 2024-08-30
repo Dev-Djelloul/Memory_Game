@@ -3,11 +3,11 @@ body {
   height: 10px;
   font-family: Georgia, "Times New Roman", Times, serif;
   text-align: center;
-  background-color: rgb(158, 158, 138);
+  background-color: rgb(218, 218, 190);
 }
 
 h1 {
-  color: rgb(244, 244, 191);
+  color: rgb(164, 84, 46);
   font-size: 2.5em;
   margin: 20px 0;
 }
@@ -42,7 +42,7 @@ button {
 }
 
 .card {
-  background-color: #5e735c;
+  background-color: #470962;
   border-radius: 5px;
   cursor: pointer;
 
@@ -70,3 +70,9 @@ button {
   box-sizing: border-box;
   cursor: default;
 }
+
+img {
+  max-width: 700%;
+  max-height: 700%;
+}     
+
