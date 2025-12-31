@@ -1,2 +1,30 @@
-Dans ce projet Studi, nous allons créer un jeu de memory en JavaScript. Le développement de ce jeu nous permettra d’aborder des notions clés telles que la manipulation du DOM pour créer des éléments de façon dynamique, la gestion des événements pour interagir avec les éléments, et les fonctions pour structurer notre code. Le tout en s’amusant !
+# Memory Game
 
+Memory Game est un petit jeu de memoire realise en JavaScript. Le projet permet de pratiquer la manipulation du DOM, la gestion des evenements et la logique de jeu.
+
+## Apercu
+
+- Plateau de jeu genere dynamiquement.
+- Timer de partie.
+- Scores et statistiques affiches.
+- Bouton pour relancer une partie.
+
+## Fonctionnalites
+
+- Retourner des cartes et verifier les paires.
+- Suivi du temps de jeu.
+- Historique des scores.
+
+## Stack technique
+
+- HTML5
+- CSS3
+- JavaScript (vanilla)
+
+## Lancer le projet
+
+Ouvrir `index.html` dans un navigateur.
+
+## Auteur
+
+Digitalblueskye
