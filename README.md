@@ -1,17 +1,17 @@
 # Memory Game
 
-Memory Game est un petit jeu de memoire realise en JavaScript. Le projet permet de pratiquer la manipulation du DOM, la gestion des evenements et la logique de jeu.
+Memory Game est un petit jeu de memoire realisé en JavaScript. Le projet permet de pratiquer la manipulation du DOM, la gestion des évènements et la logique de jeu.
 
 ## Apercu
 
-- Plateau de jeu genere dynamiquement.
+- Plateau de jeu genéré dynamiquement.
 - Timer de partie.
 - Scores et statistiques affiches.
 - Bouton pour relancer une partie.
 
-## Fonctionnalites
+## Fonctionnalités
 
-- Retourner des cartes et verifier les paires.
+- Retourner des cartes et vérifier les paires.
 - Suivi du temps de jeu.
 - Historique des scores.
 
